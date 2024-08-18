@@ -17,10 +17,10 @@
   </head>
   <body>
     <!-- Header -->
-    <header >
+    <header>
       <div class="container">
-        <div class="d-flex align-items-center justify-content-between ">
-          <div class="location_box ">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="location_box">
             <span><i class="fa-solid fa-location-dot"></i></span>
             <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
           </div>
@@ -44,6 +44,141 @@
       </div>
     </header>
     <!-- Header -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/Logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex search btn-group" role="search">
+            <input
+              class=" "
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <span class=""><i class="fa-solid fa-magnifying-glass"></i></span>
+            <button class="search_btn" type="submit">Search</button>
+          </form>
+          <div class="navbar-nav values ms-auto mb-2 mb-lg-0">
+            <div>
+              <i class="fa-regular fa-heart heart"></i>
+            </div>
+            <div class="d-flex align-items-center">
+              <span><i class="fa-solid fa-bag-shopping card_shop"></i></span>
+              <span class="shopping d-flex flex-column ps-2">
+                <span class="cart">Shopping cart:</span>
+                <span>$57.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="navigation_menu">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <ul>
+            <li>
+              <a href="#"
+                >Home <span><i class="fa-solid fa-chevron-down"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                >Shop <span><i class="fa-solid fa-chevron-down"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                >Pages <span><i class="fa-solid fa-chevron-down"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                >Blog <span><i class="fa-solid fa-chevron-down"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="#">About Us <span></span></a>
+            </li>
+            <li>
+              <a href="#">Contact Us <span></span></a>
+            </li>
+          </ul>
+          <div class="call">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span> (219) 555-0114</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <ul>
+              <li class="mb-2">
+                <a class="text-decoration-none text-body-emphasis " href="#"
+                  >Home <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-body-emphasis " href="#"
+                  >Shop <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-body-emphasis " href="#"
+                  >Pages <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-body-emphasis " href="#"
+                  >Blog <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-body-emphasis " href="#">About Us <span></span></a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-body-emphasis " href="#">Contact Us <span></span></a>
+              </li>
+            </ul>
+            <div class="call">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <span> (219) 555-0114</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
 
     <script src="./bootstrap.bundle.min.js"></script>
   </body>
