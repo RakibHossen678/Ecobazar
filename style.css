@@ -337,6 +337,44 @@ nav {
 }
 /* banner */
 
+#service {
+  margin: 90px 0;
+}
+#service .container {
+  box-shadow: 5px 5px 25px gainsboro;
+  padding: 25px 40px;
+  border-radius: 10px;
+}
+.service_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.service_box div i {
+  padding-right: 10px;
+  font-size: 25px;
+  color: var(--branding-success);
+}
+.service_box h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+}
+.service_box p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-400);
+}
+.service_box h3,
+.service_box p {
+  margin: 0;
+  padding: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 576px) {
   .location_box span i {
@@ -366,7 +404,7 @@ nav {
   .search span {
     position: absolute;
     top: 10px;
-    left: 13px;
+    left: 32px;
   }
   #navigation_menu {
     display: none;
@@ -388,6 +426,12 @@ nav {
   }
   .banner_1 h1 {
     font-size: 30px;
+  }
+  #service .container {
+    padding: 10px;
+  }
+  .service_box {
+    margin-top: 20px;
   }
 }
 
@@ -457,6 +501,9 @@ nav {
     justify-content: center;
     align-items: start;
     padding-left: 10px;
+  }
+  .service_box {
+    margin-top: 20px;
   }
 }
 /* Responsive Design */
