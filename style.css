@@ -337,8 +337,10 @@ nav {
 }
 /* banner */
 
+/* service */
 #service {
   margin: 90px 0;
+  overflow-x: hidden;
 }
 #service .container {
   box-shadow: 5px 5px 25px gainsboro;
@@ -354,7 +356,7 @@ nav {
 
 .service_box div i {
   padding-right: 10px;
-  font-size: 25px;
+  font-size: 30px;
   color: var(--branding-success);
 }
 .service_box h3 {
@@ -374,6 +376,67 @@ nav {
   margin: 0;
   padding: 0;
 }
+/* service */
+
+/* popular */
+#popular {
+  margin-bottom: 90px;
+}
+.popular_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular_header h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-900);
+}
+.popular_header button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--branding-success);
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.popular_box {
+  border: 1px solid var(--gray-scale-gray-100);
+  border-radius: 5px;
+  padding: 16px 0px 20px 0px;
+  text-align: center;
+  width: 200px;
+  transition-duration: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.popular_box img {
+  width: 150px;
+}
+.popular_box h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--gray-scale-gray-900);
+  padding-top: 10px;
+  display: inline-block;
+}
+.popular_box:hover {
+  border: 1px solid;
+  box-shadow: 0 0 12px 0 rgba(32, 181, 38, 0.32);
+}
+.popular_box:hover h4 {
+  color: var(--branding-success-dark);
+}
+.popular .container .row{
+border: 2px solid;
+}
+/* popular */
 
 /* Responsive Design */
 @media (max-width: 576px) {
@@ -433,6 +496,22 @@ nav {
   .service_box {
     margin-top: 20px;
   }
+  .popular_box{
+    width: 180px;
+  }
+  .popular_box img {
+    width: 140px;
+    padding: 16px 0px  0px;
+  }
+  .popular .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular_header h1{
+    font-size: 16px;
+  }
+
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -504,6 +583,9 @@ nav {
   }
   .service_box {
     margin-top: 20px;
+  }
+  .service_box p {
+    max-width: 190px;
   }
 }
 /* Responsive Design */
