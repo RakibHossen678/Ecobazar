@@ -433,8 +433,8 @@ nav {
 .popular_box:hover h4 {
   color: var(--branding-success-dark);
 }
-.popular .container .row{
-border: 2px solid;
+.popular .container .row {
+  border: 2px solid;
 }
 /* popular */
 
@@ -496,22 +496,25 @@ border: 2px solid;
   .service_box {
     margin-top: 20px;
   }
-  .popular_box{
-    width: 180px;
+  .popular_box {
+    width: 160px;
   }
   .popular_box img {
-    width: 140px;
-    padding: 16px 0px  0px;
+    width: 150px;
+    padding: 16px 0px 0px;
   }
-  .popular .container .row{
+  .popular .container .row {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .popular_header h1{
+  .popular_header h1 {
     font-size: 16px;
   }
-
+  .popular_box h4 {
+    font-weight: 500;
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
