@@ -533,7 +533,7 @@ nav {
   background: var(--branding-success);
   color: white;
 }
-.products_image img{
+.products_image img {
   overflow: hidden;
 }
 /* Popular Products */
@@ -615,7 +615,6 @@ nav {
     font-weight: 500;
     font-size: 16px;
   }
-
   .products_box:hover .eye_love {
     opacity: 1;
     visibility: visible;
@@ -624,8 +623,7 @@ nav {
   .popular_box {
     width: 47%;
   }
-  
-  .products_image img{
+  .products_image img {
     width: 100%;
     display: inline-block;
     overflow: hidden;
@@ -688,7 +686,6 @@ nav {
   .banner_1 {
     height: 300px;
   }
-
   .banner_2_box_2 h1 {
     padding: 0;
     width: 50%;
