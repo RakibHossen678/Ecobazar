@@ -876,7 +876,71 @@ nav {
 .latest_box:hover .latest_content .latest_para {
   color: var(--branding-success-dark);
 }
+
 /* latest */
+
+/* testimonial */
+#testimonial {
+  background: var(--gray-scale-gray-50);
+  padding: 60px 0px;
+  margin-bottom: 90px;
+}
+.testimonial_header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-900);
+  margin-bottom: 30px;
+}
+.review_box {
+  border-radius: 8px;
+  padding: 24px;
+  width: 424px;
+  height: 254px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.01);
+  background: var(--gray-scale-white);
+}
+.testi_para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-700);
+}
+.info i {
+  color: var(--branding-success);
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.user_review div img {
+  padding-right: 10px;
+}
+.user_review div p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--gray-scale-gray-900);
+}
+.user_review div span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--gray-scale-gray-400);
+}
+
+.action span i {
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.action span i:hover{
+  background-color: var(--branding-success);
+  color:white;
+}
+/* testimonial */
 
 /* Responsive Design */
 @media (max-width: 576px) {
@@ -981,6 +1045,12 @@ nav {
   .latest_box {
     width: 100%;
     margin-top: 20px; /* Adjust as needed */
+  }
+  .review_box{
+    margin-top: 20px;
+  }
+  .testimonial_header{
+    font-size: 20px;
   }
 }
 
@@ -1096,6 +1166,10 @@ nav {
     margin: auto;
     width: 65%;
     margin-top: 40px;
+  }
+  .review_box{
+    margin: auto;
+    margin-top: 20px;
   }
 }
 /* Responsive Design */
