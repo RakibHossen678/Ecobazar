@@ -720,6 +720,69 @@ nav {
 }
 /* special */
 
+/* summer */
+#summer_sale {
+  margin-bottom: 90px;
+}
+.summer {
+  background-image: url("./images/summer.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+}
+.summer_container{
+width: 500px;
+margin-right: 20px;
+}
+.summer h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--gray-scale-white);
+}
+.summer h1 {
+  font-weight: 400;
+  color: var(--gray-scale-white);
+  font-size: 56px;
+  line-height: 120%;
+  
+}
+.summer h1 span {
+  font-weight: 600;
+  color: var(--branding-warning);
+}
+.summer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-white);
+}
+.summer button {
+  border-radius: 43px;
+  padding: 14px 22px;
+  width: 162px;
+  height: 45px;
+  margin: 20px 0;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background: var(--branding-success);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--gray-scale-white);
+}
+/* summer */
+
 /* Responsive Design */
 @media (max-width: 576px) {
   .location_box span i {
@@ -815,6 +878,10 @@ nav {
   }
   .special_box_3 {
     margin-top: 40px;
+  }
+  .summer{
+    background-position: center;
+    background-size: cover;
   }
 }
 
