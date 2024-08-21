@@ -735,11 +735,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: end;
-  
 }
-.summer_container{
-width: 500px;
-margin-right: 20px;
+.summer_container {
+  width: 500px;
+  margin-right: 20px;
 }
 .summer h4 {
   font-weight: 500;
@@ -754,7 +753,6 @@ margin-right: 20px;
   color: var(--gray-scale-white);
   font-size: 56px;
   line-height: 120%;
-  
 }
 .summer h1 span {
   font-weight: 600;
@@ -782,6 +780,103 @@ margin-right: 20px;
   color: var(--gray-scale-white);
 }
 /* summer */
+
+/* latest */
+#latest {
+  margin-bottom: 90px;
+}
+.Latest_header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--gray-scale-gray-900);
+  margin-bottom: 40px;
+}
+
+.latest_box_image img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  height: 324px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.latest_content {
+  border: 1px solid var(--gray-scale-gray-100);
+  border-radius: 0 0 8px 8px;
+  padding: 24px;
+  width: 100%;
+  height: 180px;
+}
+.Latest_data {
+  margin-bottom: 10px;
+}
+.Latest_data div span {
+  font-weight: 400;
+  font-size: 18px;
+  padding-right: 10px;
+  color: var(--gray-scale-gray-500);
+}
+.Latest_data div p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gray-scale-gray-500);
+  padding: 0;
+  margin: 0;
+}
+.latest_content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-900);
+}
+.latest_content button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--branding-success);
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.latest_box {
+  position: relative;
+}
+.calender {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  border-radius: 4px;
+  padding: 6px 15px 10px 15px;
+  width: 58px;
+  height: 58px;
+  background: var(--gray-scale-white);
+}
+.calender h5 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: var(--gray-scale-gray-900);
+}
+.calender p {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gray-scale-gray-500);
+}
+.latest_box:hover .latest_content {
+  box-shadow: 0 0 12px 0 rgba(32, 181, 38, 0.32);
+}
+.latest_box:hover .latest_content .latest_para {
+  color: var(--branding-success-dark);
+}
+/* latest */
 
 /* Responsive Design */
 @media (max-width: 576px) {
@@ -879,9 +974,13 @@ margin-right: 20px;
   .special_box_3 {
     margin-top: 40px;
   }
-  .summer{
+  .summer {
     background-position: center;
     background-size: cover;
+  }
+  .latest_box {
+    width: 100%;
+    margin-top: 20px; /* Adjust as needed */
   }
 }
 
@@ -987,6 +1086,16 @@ margin-right: 20px;
     background-position: center;
     background-size: cover;
     text-align: center;
+  }
+  .latest_new_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .latest_box {
+    margin: auto;
+    width: 65%;
+    margin-top: 40px;
   }
 }
 /* Responsive Design */
