@@ -936,11 +936,26 @@ nav {
   background-color: white;
   border-radius: 50%;
 }
-.action span i:hover{
+.action span i:hover {
   background-color: var(--branding-success);
-  color:white;
+  color: white;
 }
 /* testimonial */
+
+/* branding */
+#branding {
+  margin-bottom: 90px;
+}
+.branding_content {
+  border-right: 3px solid rgb(203, 197, 197);
+}
+.branding_content {
+  padding-left: 70px;
+}
+.branding_content:last-child {
+  border: none;
+}
+/* branding */
 
 /* Responsive Design */
 @media (max-width: 576px) {
@@ -971,7 +986,7 @@ nav {
   .search span {
     position: absolute;
     top: 10px;
-    left: 32px;
+    left: 22px;
   }
   #navigation_menu {
     display: none;
@@ -1046,11 +1061,21 @@ nav {
     width: 100%;
     margin-top: 20px; /* Adjust as needed */
   }
-  .review_box{
+  .review_box {
     margin-top: 20px;
   }
-  .testimonial_header{
+  .testimonial_header {
     font-size: 20px;
+  }
+  .branding_content {
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+  .branding_content img {
+    width: 80px;
+  }
+  .branding_content:nth-child(3) {
+    border: none;
   }
 }
 
@@ -1167,9 +1192,16 @@ nav {
     width: 65%;
     margin-top: 40px;
   }
-  .review_box{
+  .review_box {
     margin: auto;
     margin-top: 20px;
+  }
+  .branding_content {
+    padding-left: 70px;
+    margin-top: 30px;
+  }
+  .branding_content:nth-child(3) {
+    border: none;
   }
 }
 /* Responsive Design */
