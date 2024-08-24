@@ -85,7 +85,7 @@ header {
 nav {
   margin: 10px 0;
 }
-.search input{
+.search input {
   margin-left: auto;
   position: relative;
 }
@@ -942,7 +942,7 @@ nav {
 }
 /* testimonial */
 
-/* branding */
+/* INFO:branding */
 #branding {
   margin-bottom: 90px;
 }
@@ -1116,7 +1116,7 @@ footer {
 /* newsletter */
 
 /* Responsive Design */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .location_box span i {
     padding-right: 5px;
   }
@@ -1143,8 +1143,8 @@ footer {
   }
   .search span {
     position: absolute;
-    top: 10px;
-    left: 22px;
+    /* top: 10px; */
+    left: 34px;
   }
   #navigation_menu {
     display: none;
@@ -1253,9 +1253,12 @@ footer {
     justify-content: center;
     margin: 20px 0;
   }
+  .search_field{
+    margin: 20px 0;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .location_box span i {
     padding-right: 5px;
   }
@@ -1270,7 +1273,7 @@ footer {
     padding-right: 5px;
   }
   .search {
-    margin: 20px auto;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
   }
@@ -1281,6 +1284,9 @@ footer {
     position: absolute;
     top: 10px;
     left: 154px;
+  }
+  .search_field{
+    margin: 20px 0;
   }
   #navigation_menu {
     display: none;
