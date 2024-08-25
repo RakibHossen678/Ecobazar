@@ -1,6 +1,6 @@
-/* Fonts */
+/* Fonts family */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-/* Fonts */
+/* Fonts family */
 
 /* common  */
 :root {
@@ -1116,6 +1116,7 @@ footer {
 /* newsletter */
 
 /* Responsive Design */
+
 @media (max-width: 768px) {
   .location_box span i {
     padding-right: 5px;
@@ -1143,7 +1144,6 @@ footer {
   }
   .search span {
     position: absolute;
-    /* top: 10px; */
     left: 34px;
   }
   #navigation_menu {
@@ -1253,7 +1253,7 @@ footer {
     justify-content: center;
     margin: 20px 0;
   }
-  .search_field{
+  .search_field {
     margin: 20px 0;
   }
 }
@@ -1285,7 +1285,7 @@ footer {
     top: 10px;
     left: 154px;
   }
-  .search_field{
+  .search_field {
     margin: 20px 0;
   }
   #navigation_menu {
@@ -1405,4 +1405,5 @@ footer {
     margin: 20px 0;
   }
 }
+
 /* Responsive Design */
